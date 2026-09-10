@@ -1,0 +1,22 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "indexion",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 3608070,
+      "hash": "sha256",
+      "digest": "4e7b1dd215a68102b70073d27f58d8b488aaf7ce9766c7d8cd39da9f4c0f608a",
+      "format": "tar.gz",
+      "path": "indexion-darwin-arm64/indexion",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "trkbt10/indexion",
+          "tag": "v0.16.0",
+          "name": "indexion-darwin-arm64.tar.gz"
+        }
+      ]
+    }
+  }
+}

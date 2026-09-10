@@ -1,0 +1,37 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "indexion",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 3905318,
+      "hash": "sha256",
+      "digest": "0c913521a4c5d36ab5c5d671681f4bba9d15f1e02e1fbafc592424a8f37a439b",
+      "format": "tar.gz",
+      "path": "indexion-darwin-arm64/indexion",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "trkbt10/indexion",
+          "tag": "v0.18.0",
+          "name": "indexion-darwin-arm64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 4241101,
+      "hash": "sha256",
+      "digest": "4c3453ec9492b7f618ea9306ca2bc96dbd10ff4bedaa044868de6d0b4527ae96",
+      "format": "tar.gz",
+      "path": "indexion-linux-x64/indexion",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "trkbt10/indexion",
+          "tag": "v0.18.0",
+          "name": "indexion-linux-x64.tar.gz"
+        }
+      ]
+    }
+  }
+}
