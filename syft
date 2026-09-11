@@ -1,0 +1,52 @@
+#!/usr/bin/env dotslash
+
+{
+  "name": "syft",
+  "platforms": {
+    "macos-aarch64": {
+      "size": 27907057,
+      "hash": "sha256",
+      "digest": "ac063af3b9874769deb7ea1e6d76841e68f9e3bb50cd654226fc977de65532c1",
+      "format": "tar.gz",
+      "path": "syft",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "anchore/syft",
+          "tag": "v1.51.1",
+          "name": "syft_1.51.1_darwin_arm64.tar.gz"
+        }
+      ]
+    },
+    "macos-x86_64": {
+      "size": 30501876,
+      "hash": "sha256",
+      "digest": "0e186ce1d4351ec276126851ca3ff258ed070e93e73574ed64858d4fc2339867",
+      "format": "tar.gz",
+      "path": "syft",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "anchore/syft",
+          "tag": "v1.51.1",
+          "name": "syft_1.51.1_darwin_amd64.tar.gz"
+        }
+      ]
+    },
+    "linux-x86_64": {
+      "size": 29203595,
+      "hash": "sha256",
+      "digest": "8fcb33017a0dc1058298c923c436d19dfa68ae93968e0b423248542e3afb9fc3",
+      "format": "tar.gz",
+      "path": "syft",
+      "providers": [
+        {
+          "type": "github-release",
+          "repo": "anchore/syft",
+          "tag": "v1.51.1",
+          "name": "syft_1.51.1_linux_amd64.tar.gz"
+        }
+      ]
+    }
+  }
+}
